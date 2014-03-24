@@ -376,7 +376,11 @@ hr {
       }
 
       // Set background
-      background: $mixed-background;
+      background: $mixed-background url('icons/#{$power}.png') no-repeat center center;
+      background-size: cover;
+
+      //hide text
+      text-indent: -9999px;
 
       // Add glow
       $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
