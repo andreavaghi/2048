@@ -22,6 +22,11 @@ h1.title {
   display: block;
   float: left;
   color: #eeb900; }
+  h1.title span {
+    font-family: "Ubuntu";
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 77px; }
 
 @-webkit-keyframes move-up {
   0% {
@@ -517,6 +522,9 @@ hr {
 
 .game-explanation {
   margin-top: 50px; }
+
+.note {
+  font-size: 10px; }
 
 .sharing {
   margin-top: 20px;

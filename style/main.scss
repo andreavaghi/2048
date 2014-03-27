@@ -49,6 +49,13 @@ h1.title {
   display: block;
   float: left;
   color: $nipple-yellow;
+
+  span {
+    font-family: "Ubuntu";
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 77px;
+  }
 }
 
 @include keyframes(move-up) {
@@ -466,6 +473,10 @@ hr {
 
 .game-explanation {
   margin-top: 50px;
+}
+
+.note {
+  font-size: 10px;
 }
 
 .sharing {
